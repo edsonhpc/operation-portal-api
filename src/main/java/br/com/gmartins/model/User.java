@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 @Data
 @Entity
-@Table(name="user")
+@Table(name="users")
 public class User implements Serializable {
 
     @Id
@@ -21,7 +21,7 @@ public class User implements Serializable {
     @Column(name="username", length = 60)
     private String username;
 
-    @Column(name="password", length = 20)
+    @Column(name="password_user", length = 255)
     private String password;
 
     @Enumerated(EnumType.STRING)

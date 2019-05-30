@@ -9,5 +9,4 @@ public class OperationPortalApiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(OperationPortalApiApplication.class, args);
 	}
-
 }
